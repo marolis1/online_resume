@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(-45deg, #ff910249, rgba(153, 37, 182, 0.363));
+}
+
+.contact--type {
+  float: right;
+  display: block;
+  padding: 8px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#LinkedIn {
+  border-right-style: none;
+}
+
+
+
+.hidden {
+  display: none;
+}
